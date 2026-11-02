@@ -18,7 +18,7 @@ YEAR = 2026
 PROJECT_TITLE = ("Development of a Predictive Model for In-Hospital Mortality in ICU Patients "
                  "Using Classical Machine Learning Techniques")
 favicon = Image.open("favicon.png")
-st.set_page_config(page_title="ICU Mortality Risk Monitor", page_icon="favicon", layout="wide")
+st.set_page_config(page_title="ICU Mortality Risk Monitor", page_icon= favicon, layout="wide")
 st.markdown(ui.global_css(), unsafe_allow_html=True)
 st.markdown(ui.header_html("ICU MORTALITY RISK MONITOR",
                            "Machine-learning estimate of in-hospital mortality from the first 24 hours of ICU data",
