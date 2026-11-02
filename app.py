@@ -7,6 +7,7 @@ import streamlit as st
 
 import predictor as pr
 import ui
+from PIL import Image
 
 # ---------------------------------------------------------------- project details (from the report cover page)
 DEVELOPER = "Okpoko Chidubem Innocent"
